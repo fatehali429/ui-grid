@@ -7,6 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "package": "grunt build&& grunt build:less_dist&& grunt update-bower-json",
     "bootstrap": "lerna bootstrap",
     "bump": "lerna version --conventional-commits --no-push --no-git-tag-version",
     "changed": "lerna changed",
